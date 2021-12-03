@@ -1,0 +1,113 @@
+Que1:Name four of the main data types in Python?
+
+Ans: Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+Que2:What does immutable mean and what three types of Python core data types are considered immutable?
+
+Ans: An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+Que3:What does sequence mean and which three types of data fall into this category?
+
+Ans: A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+Que4:What is pep 8?
+PEP in Python stands for Python Enhancement Proposal.It is a set of rules that specify how to write and design Python code for maximum readability.
+
+Que5:What are lists and tuples? What is the key difference between the two?
+
+Ans:Lists and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).
+But what is the real difference between the two? The key difference between the two is that while lists are mutable, tuples on the other hand are immutable objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner.
+
+Que6: What is pass in Python?
+
+Ans:The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the pass statement in the following code, we may run into some errors during code execution.
+
+def myEmptyFunc():
+   # do nothing
+   pass
+myEmptyFunc()    # nothing happens
+## Without the pass keyword
+# File "<stdin>", line 3
+# IndentationError: expected an indented block
+
+Que8:What are the limitations of Python?
+
+Answer: There are certain limitations of Python, which include the following:
+It has design restrictions.
+It is slower when compared with C and C++ or Java.
+It is inefficient in mobile computing.
+It consists of an underdeveloped database access layer.
+
+Que9:What is slicing in Python?
+
+Ans: As the name suggests, ‘slicing’ is taking parts of.
+Syntax for slicing is [start : stop : step]
+start is the starting index from where to slice a list or tuple
+stop is the ending index or where to sop.
+step is the number of steps to jump.
+Default value for start is 0, stop is number of items, step is 1.
+Slicing can be done on strings, arrays, lists, and tuples.
+
+Que10:What keyword is used to skip back to the beginning of a loop?
+
+Answer: continue
+
+Que11:Use range to generate a list from 1 through 5?
+
+Answer: range(1,6)
+
+Que12:What does the break keyword do?
+
+Answer: Exits the loop immediately
+
+Que13:What does elif mean?
+
+Answer:It means else if. It is used after an if statement, to do another comparison.
+
+Que14:How is the Python switch statement used?
+Answer:This is a trick question, there is no built-in switch statement in Python, which is unusual. A switch statement can be easily created using if-elif using lambda or with Python dictionaries.
+
+Que15:What is a static function?
+
+Answer:A static function is a function whose scope is limited to the current source file. Scope refers to the visibility of a function or variable. If the function or variable is visible outside of the current source file, it is said to have global, or external, scope. If the function or variable is not visible outside of the current source file, it is said to have local, or static, scope.
+
+Que16:)Explain Inheritance in Python with an example.
+
+Ans: Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
+
+They are different types of inheritance supported by Python:
+
+Single Inheritance – where a derived class acquires the members of a single super class.
+Multi-level inheritance – a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+Hierarchical inheritance – from one base class you can inherit any number of child classes
+Multiple inheritance – a derived class is inherited from more than one base class.
+
+Que17: What are Python namespaces? Why are they used?
+
+Ans: A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object.
+
+Que18:Write a program in Python to produce Star triangle.
+Ans:
+def pyfunc(r):
+    for x in range(r):
+        print(' '*(r-x-1)+'*'*(2*x+1))    
+pyfunc(9)
+Output: *
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+ ***************
+*****************
+
+Que19:What is Python Used For?
+
+Ans:Python is one of the most popular programming languages in the world today. Whether you’re browsing through Google, scrolling through Instagram, watching videos on YouTube, or listening to music on Spotify, all of these applications make use of Python for their key programming requirements. Python is used across various platforms, applications, and services such as web development.
+
+Que20: What is Pandas?
+
+Ans:Pandas is an open source python library which has a very rich set of data structures for data based operations. Pandas with it’s cool features fits in every role of data operation, whether it be academics or solving complex business problems. Pandas can deal with a large variety of files and is one of the most important tools to have a grip on.
+
+
